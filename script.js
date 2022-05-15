@@ -27,7 +27,7 @@ function generatePassword() {
   let charOnlyNumeric = '0123456789';//14th Condition
   let charOnlySpecial = '~`!@#$%^&*()_-+={}[]|:;"<,>.?/';//15th Condition
   
-  var passwordLength = prompt("Please enter a password length between 8 and 128 characters:"); //User prompt for password length
+  var passwordLength = prompt("How long do you want your password to be? Must be a value between 8 and 128."); //User prompt for password length
     if (passwordLength < 8) { 
         alert('Password length too short. Please ensure length is between 8 and 128 characters.') //Condition to re-run password prompt if the length entered is less than 8
         console.log("Password length input too short.")
@@ -40,19 +40,19 @@ function generatePassword() {
       };
 
   //Prompt asking user if uppercase characters are valid
-  var UpperCase = confirm("Allow uppercase letters?");
+  var UpperCase = confirm("Allow uppercase letters? OK for YES, Cancel for NO");
   console.log(`Uppercase Selection = ${UpperCase}.`)
 
   //Prompt asking user if lowercase characters are valid
-  var LowerCase = confirm("Allow lowercase letters?");
+  var LowerCase = confirm("Allow lowercase letters? OK for YES, Cancel for NO");
   console.log(`Lowercase Selection = ${LowerCase}.`)
 
   //Prompt asking user if numeric characters are valid
-  var Numeric = confirm("Allow numeric characters?");
+  var Numeric = confirm("Allow numeric characters? OK for YES, Cancel for NO");
   console.log(`Numeric Selection = ${Numeric}.`)
 
   //Prompt asking user if special characters are valid
-  var Special = confirm("Allow special characters?");
+  var Special = confirm("Allow special characters? OK for YES, Cancel for NO");
   console.log(`Special Character Selection = ${Special}.`)
 
   //1st Condition
