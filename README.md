@@ -1,9 +1,13 @@
 About
 ---
 Adam Martin
+
 amartin80108@gmail.com
+
 GT Coding Boot Camp Homework #3
+
 Created: 05/15/2022
+
 Due: 05/16/2022
 
 Links
@@ -31,7 +35,8 @@ The fourth prompt asks if there can be special characters.
 
 Valid Characters
 ---
-The total list of valid characters if the user says "YES" to all prompts
+The total list of valid characters if the user says "YES" to all prompts:
+
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()_-+={}[]|:;"<,>.?/
 
 Screen Shots
